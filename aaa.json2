@@ -1,0 +1,7 @@
+{
+  "name": "AAA Stake Pool",
+  "ticker": "AAA",
+  "description": "Two IT professionals, deciding to join forces after both had a solid 6 month performance on Cardano Incentivised Testnet network with their own pools. Aiming to provide a transparent and reliable staking experience.",
+  "homepage": "https://stakelovelace.io/aaa/",
+  "extended": "https://raw.githubusercontent.com/hodlonaut/a/master/extended_aaa.json"
+}
