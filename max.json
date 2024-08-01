@@ -3,5 +3,6 @@
   "ticker": "ХРЮША",
   "description": "Описание на русском языке",
   "homepage": "https://foo.com",
-  "hashAlgorithm": "sha256"
+  "hashAlgorithm": "sha256",
+  "body": "mary had"
 }
