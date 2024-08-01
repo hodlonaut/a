@@ -4,5 +4,5 @@
   "description": "Описание на русском языке",
   "homepage": "https://foo.com",
   "hashAlgorithm": "sha256",
-  "body": "mary had"
+  "body": { "name": "mary", "animal": "lamb" }
 }
