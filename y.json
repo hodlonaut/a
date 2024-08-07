@@ -1,6 +1,6 @@
 {
-  "name": "version2",
+  "name": "version3",
   "ticker": "V1X",
-  "description": "modified for the first time around 11.57am local",
-  "homepage": "https://v2x1156am.net/"
+  "description": "modified for the second time around 12:08m local to use online dns/port for relay",
+  "homepage": "https://v3x1208am.net/"
 }
