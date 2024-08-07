@@ -1,6 +1,6 @@
 {
-  "name": "AdaScan",
-  "ticker": "SCAN",
-  "description": "AdaScan Explorer",
-  "homepage": "https://adascan.net/"
+  "name": "version1",
+  "ticker": "V1",
+  "description": "used in pool creation around 11.35am local",
+  "homepage": "https://v1.net/"
 }
