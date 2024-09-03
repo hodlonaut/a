@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:update-uri"
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "rationale": "CIP108:rationale"
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Homer J - DRep",
+    "abstract": "My name is Homer J, I am a Developer/SPO (co-owner of AAA stake pool), part of Koios Elastic API team.",
+    "motivations": "Provide unbiased opinions, aim to improve decentralization of the network, operate transparent services and help users of the Cardano blockchain.",
+    "rationale": "Onwards and upwards.",
+    "paymentAddress": "addr1qx74q956q5elqhudusf5ug2uvv8lh56m7zrhy7xc7q6arak8c59puwg6nrzs3zrfm5xalpau57exskvra3ccthlgdhmssesy2m",
+    "givenName": "Homer J",
+    "objectives": "Provide unbiased opinions, aim to improve decentralization of the network, operate transparent services and help users of the Cardano blockchain.",
+    "qualifications": "Stakepool Operator, Developer",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Stakepool AAA",
+        "uri": "https://stakelovelace.io/"
+      }
+    ],
+    "comment": "My name is Homer J, I am a Developer/SPO.",
+    "externalUpdates": [
+      {
+        "title": "Github",
+        "uri": "https://github.com/hodlonaut"
+      }
+    ]
+  }
+}
