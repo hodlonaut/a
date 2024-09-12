@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:update-uri"
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },        
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "title": "CIP108:title"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Homer J - DRep",
+    "motivations": "Strive to advance Cardano as a useful tool/foundation for solving real-world problems.",
+    "paymentAddress": "$aaa",
+    "givenName": "Homer J",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://github.com/hodlonaut/a/blob/master/ec.jpeg",
+      "sha256": "a6262bb4d86e8901cc0d3bb03862194705142553e3725ca04fbaa6d2eca2a386"
+    },
+    "objectives": "Provide unbiased opinions/critique of governance proposals, aim to improve decentralization of the network, operate transparent services and provide assistance to users and developers on the Cardano blockchain.",
+    "qualifications": "Early tester/SPO from beginnings of Incentivized Testnet, member of Cardano Operator's Guild, co-owner of AAA stake pool (8500+ lifetime blocks), developer/tester/infrastructure provider for Koios Elastic API project, Scooper operator for SundaeSwap DEX since Jan 2022, software developer with 20+ years of experience",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Stakepool AAA",
+        "uri": "https://stakelovelace.io/"
+      },
+      {
+        "@type": "Link",
+        "label": "Personal Twitter account",
+        "uri": "https://x.com/kpunton00b"
+      }
+    ],
+    "comment": "My name is Homer J, I am a Developer/SPO.",
+    "externalUpdates": [
+      {
+        "title": "Github",
+        "uri": "https://github.com/hodlonaut"
+      }
+    ]
+  },
+  "authors": []
+}
