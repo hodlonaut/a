@@ -71,7 +71,7 @@
     "givenName": "Homer J",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://github.com/hodlonaut/a/blob/master/ec.jpeg",
+      "contentUrl": "https://github.com/hodlonaut/a/blob/master/ec.jpeg?raw=true",
       "sha256": "a6262bb4d86e8901cc0d3bb03862194705142553e3725ca04fbaa6d2eca2a386"
     },
     "objectives": "Provide unbiased opinions/critique of governance proposals, aim to improve decentralization of the network, operate transparent services and provide assistance to users and developers on the Cardano blockchain.",
