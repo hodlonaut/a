@@ -1,43 +1,47 @@
- post_k1000_fees_usd_month | curr_fees_usd_month |                         pool_id                          |  active_stake  | pool_fee_variable | pool_fee_fixed 
----------------------------+---------------------+----------------------------------------------------------+----------------+-------------------+----------------
-                     367.2 |               367.2 | pool13hxlxd6qa68fmfhrvvmasa0mjg30tj9p5v2lmgmgsmrp2rgzkfp | 39902865394392 |                 0 |      170000000
-                     367.2 |               367.2 | pool1xs34q2z06a46nk7hl48d27dj5gzc6hh9trugw2ehs9ajsevqffx | 49220185516233 |                 0 |      170000000
-                     367.2 |               367.2 | pool1k0ucs0fau2vhr3p7qh7mnpfgrllwwda7petxjz2gzzaxkyp8f88 | 74450924209340 |                 0 |      170000000
-                     367.2 |               367.2 | pool1mt8sdg37f2h3rypyuc77k7vxrjshtvjw04zdjlae9vdzyt9uu34 | 37456967169770 |                 0 |      170000000
-                     367.2 |               367.2 | pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k | 44547076534485 |                 0 |      170000000
-                     367.2 |               367.2 | pool18ufrgfgmslekdxnk9v9345qvhrr7vfgzkvneqtwm7unnwaht6ww | 69474819038654 |                 0 |      170000000
-                     367.2 |               367.2 | pool15s7w4spg5ee7n7rprhs0dq78plw2mhjkpu5v97uvl27gz2way7z | 76173308671269 |                 0 |      170000000
-                     367.2 |               367.2 | pool16ajaae2n5lsyr4f9k9uz5y8tpf0996tw640dzu7chwp2wdrnz6a | 73094119420185 |                 0 |      170000000
-                     491.2 |               615.3 | pool1a8n7f97dmgtgrnl53exccknjdchqxrr9508hlxlgqp6xvjmzhej | 40648935085454 |              0.01 |      170000000
-                     591.9 |               816.6 | pool193uec04jldvah7r52q86wl033g4v42x0aste8jfg9999qepaxfp | 55654000217657 |              0.01 |      170000000
-                     655.4 |               943.6 | pool1gtphgrdj8sluxm9e7ca2spcwcq2p0dxj9zf5v0yv3gsagzq704n | 69538953122830 |             0.015 |      170000000
-                     676.4 |               985.7 | pool1d3gckjrphwytzw2uavgkxskwe08msumzsfj4lxnpcnpks3zjml3 | 44475990891235 |            0.0199 |      170000000
-                     734.4 |               734.4 | pool1lskcfz80qg2kr2p6776kl9emjn8ulkqsqse7um7skz4y2lwa0cu | 52282387047168 |                 0 |      340000000
-                     734.4 |               734.4 | pool1v5u6wzakuc25q3zpx04t8gjz3rgu60wuxkv2mh5nga23xjkc86s | 64239602527321 |                 0 |      340000000
-                     748.9 |               763.3 | pool1qqq0c53vaf5ju0n3fvujmyxwca0yhp65930evw9lngmr5705csz | 37909022216984 |             0.001 |      340000000
-                     798.2 |              1229.2 | pool1enul577he3e0s500lv8z98m6k936uecz2rpckxxmmk8c7k0n2rd | 56565454127641 |            0.0169 |      170000000
-                     801.8 |              1236.3 | pool1qqq6qqa0hpzvumv5p87ynczfmdj557xuwlc3289ke42g72z7f74 | 42297753781546 |             0.028 |      170000000
-                     830.4 |               926.5 | pool1c89d4drtwn0048mekkdkzllz559ahnntxelyw2mppxnmc36hjlx | 37008204909802 |            0.0099 |      340000000
-                     867.6 |              1000.8 | pool1ddg6t2h9kj6lqlec4ncjs945lzj43m3ggrgdhf5sgzhtygpkznz | 68870250346697 |             0.005 |      340000000
-                     878.3 |              1389.4 | pool1qqqqdktl6pq46td0mwut0qn30g7nlue0sete9wxl0hwsq37wrw8 | 64222012720513 |              0.02 |      170000000
-                     916.1 |              1097.8 | pool12jnulzs7j8lsku4r2a7q6tee6tt66872vwhqh8jxvgzn6837jtl | 44459138499192 |              0.01 |      340000000
-                     961.5 |              1188.6 | pool1vev8z03vh7jwx3mfrgzrt9fltt97nupaxv8ffj4r5r8mgwts5ze | 52721311178301 |              0.01 |      340000000
-                     962.2 |              1190.0 | pool1z5uqdk7dzdxaae5633fqfcu2eqzy3a3rgtuvy087fdld7yws0xt | 72445926166362 |             0.009 |      340000000
-                     970.9 |              1207.5 | pool1ft4xjlz9uw0r0ewcgtkgeakqrfc5azxmxwsm5pt94dv67mw4rgd | 71145906365434 |              0.01 |      340000000
-                     990.5 |              1246.7 | pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl | 38037768131688 |             0.015 |      340000000
-                    1006.1 |              1277.9 | pool1dxwgzj66pual956mnv9delkelg873yvgr2dd8s279m0hxqvr475 | 62656542553913 |              0.01 |      340000000
-                    1040.0 |              1345.5 | pool136q98jnwt093qle4ph86vdpuwplg7gyvt20h2nq4m6ksv8xjcuj | 62040146220663 |              0.01 |      340000000
-                    1194.0 |              1653.5 | pool1a23gmvalpdams9d42t7fur8vmknzjv7wd3nsvuvrc7dv66lnau0 | 46551818037204 |             0.025 |      340000000
-                    1225.2 |              1716.1 | pool1tmt8thfaqeqv499l3s7k5kl64s84nycvnx55ll3ksm9hq50p0ks | 59538289863415 |              0.02 |      340000000
-                    1228.8 |              1723.1 | pool17ahr5ygy48vpdfnatqn2z4wfu2te4quapk2yx3k50ce6kd7feg0 | 54222172938746 |              0.02 |      340000000
-                    1228.8 |              1723.3 | pool173mzegwuu0pjcrt60ekelzj5haqr8r5e4e0n45qh9jdz7xm5kh8 | 55939634685474 |            0.0199 |      340000000
-                    1233.1 |              1731.9 | pool1ewrm7y47s9hv6hxku9n5gfnsuspymp0qqpwgvgm9rvm37cek2h6 | 42776119974639 |              0.03 |      340000000
-                    1238.2 |              2109.1 | pool14wk2m2af7y4gk5uzlsmsunn7d9ppldvcxxa5an9r5ywek8330fg | 60356932436895 |            0.0299 |      170000000
-                    1324.1 |              1913.8 | pool1qakys0fxx5p2fxcnsc2tyjpqa88q7qgtdh5t3a32hplv6fg25r9 | 54846861761691 |             0.025 |      340000000
-                    1342.7 |              1951.0 | pool1jk25l2pejpdzq8vdjlxrr05th49v9tgd78fqrtxvuw3rumpfc6t | 48168766056879 |             0.029 |      340000000
-                    1396.7 |              2059.0 | pool1wt0pf4u2xktp0f7apveu242w6nkm4ltk3m8g039lvuhwq4zdtf3 | 71021608550108 |             0.022 |      340000000
-                    1507.4 |              2280.3 | pool1aqg8vxzv75zhjzjjd9s20fu6r0xz70yl8lk3teacwy7qyc2p2j7 | 64229277073250 |              0.03 |      340000000
-                    2091.4 |              3448.5 | pool1qvudfuw9ar47up5fugs53s2g84q3c4v86z4es6uwsfzzs89rwha | 39915357871154 |               0.1 |      340000000
-                    3223.8 |              5713.3 | pool13h08lf24fjmxxg0mmuattjv8dvy0r6fc4hrqg4qmj38xsweexrv | 53660111995052 |               0.1 |      340000000
-                   24574.2 |             48781.2 | pool1jakl9kqhx87ywc7fcxweaxvna9khxhzyh6v8j70u6zpaxa45ghh | 58099476205948 |                 1 |      170000000
+select round((((pool_fees::numeric - pool_fee_fixed)/2) + pool_fee_fixed)* 6.0 * 0.36 / 1000000.0, 1) post_k1000_half_stake_lost, 
+round((((pool_fees::numeric - pool_fee_fixed)*(37000000000000 / active_stake)) + pool_fee_fixed)* 6.0 * 0.36 / 1000000.0, 1) post_k1000_fees_usd_month,
+round(pool_fees::numeric * 6.0 * 0.36 / 1000000.0, 1) curr_fees_usd_month, phc.pool_id, phc.active_stake, pool_fee_variable, pool_fee_fixed from greg_pool_data gpd inner join grest.pool_history_cache phc on gpd.pool_hash = phc.pool_id and phc.epoch_no = 512 and pool_group = 'SINGLEPOOL' and active_stake > 37000000000000 order by 1 asc;
+
+ post_k1000_half_stake_lost | post_k1000_fees_usd_month | curr_fees_usd_month |                         pool_id                          |  active_stake  | pool_fee_variable | pool_fee_fixed 
+----------------------------+---------------------------+---------------------+----------------------------------------------------------+----------------+-------------------+----------------
+                      367.2 |                     367.2 |               367.2 | pool13hxlxd6qa68fmfhrvvmasa0mjg30tj9p5v2lmgmgsmrp2rgzkfp | 39902865394392 |                 0 |      170000000
+                      367.2 |                     367.2 |               367.2 | pool1xs34q2z06a46nk7hl48d27dj5gzc6hh9trugw2ehs9ajsevqffx | 49220185516233 |                 0 |      170000000
+                      367.2 |                     367.2 |               367.2 | pool1k0ucs0fau2vhr3p7qh7mnpfgrllwwda7petxjz2gzzaxkyp8f88 | 74450924209340 |                 0 |      170000000
+                      367.2 |                     367.2 |               367.2 | pool1mt8sdg37f2h3rypyuc77k7vxrjshtvjw04zdjlae9vdzyt9uu34 | 37456967169770 |                 0 |      170000000
+                      367.2 |                     367.2 |               367.2 | pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k | 44547076534485 |                 0 |      170000000
+                      367.2 |                     367.2 |               367.2 | pool18ufrgfgmslekdxnk9v9345qvhrr7vfgzkvneqtwm7unnwaht6ww | 69474819038654 |                 0 |      170000000
+                      367.2 |                     367.2 |               367.2 | pool15s7w4spg5ee7n7rprhs0dq78plw2mhjkpu5v97uvl27gz2way7z | 76173308671269 |                 0 |      170000000
+                      367.2 |                     367.2 |               367.2 | pool16ajaae2n5lsyr4f9k9uz5y8tpf0996tw640dzu7chwp2wdrnz6a | 73094119420185 |                 0 |      170000000
+                      491.2 |                     593.0 |               615.3 | pool1a8n7f97dmgtgrnl53exccknjdchqxrr9508hlxlgqp6xvjmzhej | 40648935085454 |              0.01 |      170000000
+                      591.9 |                     665.9 |               816.6 | pool193uec04jldvah7r52q86wl033g4v42x0aste8jfg9999qepaxfp | 55654000217657 |              0.01 |      170000000
+                      655.4 |                     673.9 |               943.6 | pool1gtphgrdj8sluxm9e7ca2spcwcq2p0dxj9zf5v0yv3gsagzq704n | 69538953122830 |             0.015 |      170000000
+                      676.4 |                     881.7 |               985.7 | pool1d3gckjrphwytzw2uavgkxskwe08msumzsfj4lxnpcnpks3zjml3 | 44475990891235 |            0.0199 |      170000000
+                      734.4 |                     734.4 |               734.4 | pool1lskcfz80qg2kr2p6776kl9emjn8ulkqsqse7um7skz4y2lwa0cu | 52282387047168 |                 0 |      340000000
+                      734.4 |                     734.4 |               734.4 | pool1v5u6wzakuc25q3zpx04t8gjz3rgu60wuxkv2mh5nga23xjkc86s | 64239602527321 |                 0 |      340000000
+                      748.9 |                     762.6 |               763.3 | pool1qqq0c53vaf5ju0n3fvujmyxwca0yhp65930evw9lngmr5705csz | 37909022216984 |             0.001 |      340000000
+                      798.2 |                     931.0 |              1229.2 | pool1enul577he3e0s500lv8z98m6k936uecz2rpckxxmmk8c7k0n2rd | 56565454127641 |            0.0169 |      170000000
+                      801.8 |                    1127.5 |              1236.3 | pool1qqq6qqa0hpzvumv5p87ynczfmdj557xuwlc3289ke42g72z7f74 | 42297753781546 |             0.028 |      170000000
+                      830.4 |                     926.4 |               926.5 | pool1c89d4drtwn0048mekkdkzllz559ahnntxelyw2mppxnmc36hjlx | 37008204909802 |            0.0099 |      340000000
+                      867.6 |                     877.5 |              1000.8 | pool1ddg6t2h9kj6lqlec4ncjs945lzj43m3ggrgdhf5sgzhtygpkznz | 68870250346697 |             0.005 |      340000000
+                      878.3 |                     956.1 |              1389.4 | pool1qqqqdktl6pq46td0mwut0qn30g7nlue0sete9wxl0hwsq37wrw8 | 64222012720513 |              0.02 |      170000000
+                      916.1 |                    1036.8 |              1097.8 | pool12jnulzs7j8lsku4r2a7q6tee6tt66872vwhqh8jxvgzn6837jtl | 44459138499192 |              0.01 |      340000000
+                      961.5 |                    1053.1 |              1188.6 | pool1vev8z03vh7jwx3mfrgzrt9fltt97nupaxv8ffj4r5r8mgwts5ze | 52721311178301 |              0.01 |      340000000
+                      962.2 |                     967.1 |              1190.0 | pool1z5uqdk7dzdxaae5633fqfcu2eqzy3a3rgtuvy087fdld7yws0xt | 72445926166362 |             0.009 |      340000000
+                      970.9 |                     980.4 |              1207.5 | pool1ft4xjlz9uw0r0ewcgtkgeakqrfc5azxmxwsm5pt94dv67mw4rgd | 71145906365434 |              0.01 |      340000000
+                      990.5 |                    1232.7 |              1246.7 | pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl | 38037768131688 |             0.015 |      340000000
+                     1006.1 |                    1055.3 |              1277.9 | pool1dxwgzj66pual956mnv9delkelg873yvgr2dd8s279m0hxqvr475 | 62656542553913 |              0.01 |      340000000
+                     1040.0 |                    1098.9 |              1345.5 | pool136q98jnwt093qle4ph86vdpuwplg7gyvt20h2nq4m6ksv8xjcuj | 62040146220663 |              0.01 |      340000000
+                     1194.0 |                    1464.9 |              1653.5 | pool1a23gmvalpdams9d42t7fur8vmknzjv7wd3nsvuvrc7dv66lnau0 | 46551818037204 |             0.025 |      340000000
+                     1225.2 |                    1344.4 |              1716.1 | pool1tmt8thfaqeqv499l3s7k5kl64s84nycvnx55ll3ksm9hq50p0ks | 59538289863415 |              0.02 |      340000000
+                     1228.8 |                    1409.1 |              1723.1 | pool17ahr5ygy48vpdfnatqn2z4wfu2te4quapk2yx3k50ce6kd7feg0 | 54222172938746 |              0.02 |      340000000
+                     1228.8 |                    1388.5 |              1723.3 | pool173mzegwuu0pjcrt60ekelzj5haqr8r5e4e0n45qh9jdz7xm5kh8 | 55939634685474 |            0.0199 |      340000000
+                     1233.1 |                    1597.2 |              1731.9 | pool1ewrm7y47s9hv6hxku9n5gfnsuspymp0qqpwgvgm9rvm37cek2h6 | 42776119974639 |              0.03 |      340000000
+                     1238.2 |                    1435.0 |              2109.1 | pool14wk2m2af7y4gk5uzlsmsunn7d9ppldvcxxa5an9r5ywek8330fg | 60356932436895 |            0.0299 |      170000000
+                     1324.1 |                    1530.1 |              1913.8 | pool1qakys0fxx5p2fxcnsc2tyjpqa88q7qgtdh5t3a32hplv6fg25r9 | 54846861761691 |             0.025 |      340000000
+                     1342.7 |                    1668.9 |              1951.0 | pool1jk25l2pejpdzq8vdjlxrr05th49v9tgd78fqrtxvuw3rumpfc6t | 48168766056879 |             0.029 |      340000000
+                     1396.7 |                    1424.5 |              2059.0 | pool1wt0pf4u2xktp0f7apveu242w6nkm4ltk3m8g039lvuhwq4zdtf3 | 71021608550108 |             0.022 |      340000000
+                     1507.4 |                    1625.0 |              2280.3 | pool1aqg8vxzv75zhjzjjd9s20fu6r0xz70yl8lk3teacwy7qyc2p2j7 | 64229277073250 |              0.03 |      340000000
+                     2091.4 |                    3250.2 |              3448.5 | pool1qvudfuw9ar47up5fugs53s2g84q3c4v86z4es6uwsfzzs89rwha | 39915357871154 |               0.1 |      340000000
+                     3223.8 |                    4167.5 |              5713.3 | pool13h08lf24fjmxxg0mmuattjv8dvy0r6fc4hrqg4qmj38xsweexrv | 53660111995052 |               0.1 |      340000000
+                    24574.2 |                   31199.1 |             48781.2 | pool1jakl9kqhx87ywc7fcxweaxvna9khxhzyh6v8j70u6zpaxa45ghh | 58099476205948 |                 1 |      170000000
 (40 rows)
