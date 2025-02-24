@@ -1078,18 +1078,12 @@ components:
       type: array
       items:
         properties:
-          hash:
-            $ref: "#/components/schemas/blocks/items/properties/hash"
-          epoch_no:
-            $ref: "#/components/schemas/blocks/items/properties/epoch_no"
-          abs_slot:
-            $ref: "#/components/schemas/blocks/items/properties/abs_slot"
-          epoch_slot:
-            $ref: "#/components/schemas/blocks/items/properties/epoch_slot"
-          block_no:
-            $ref: "#/components/schemas/blocks/items/properties/block_height"
-          block_time:
-            $ref: "#/components/schemas/blocks/items/properties/block_time"
+          hash: $ref: "#/components/schemas/blocks/items/properties/hash"
+          epoch_no: $ref: "#/components/schemas/blocks/items/properties/epoch_no"
+          abs_slot: $ref: "#/components/schemas/blocks/items/properties/abs_slot"
+          epoch_slot: $ref: "#/components/schemas/blocks/items/properties/epoch_slot"
+          block_no: $ref: "#/components/schemas/blocks/items/properties/block_height"
+          block_time: $ref: "#/components/schemas/blocks/items/properties/block_time"
     genesis:
       description: Array of genesis parameters used to start each era on chain
       type: array
