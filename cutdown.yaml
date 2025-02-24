@@ -178,98 +178,31 @@ paths:
       summary: Query Chain Tip
       description: Get the tip info about the latest block seen by chain
       operationId: tip
-  /pool_list: #RPC
+  /genesis: #RPC
     get:
       tags:
-        - Pool
+        - Network
       responses:
         "200":
           description: Success!!
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/pool_list"
+                $ref: "#/components/schemas/genesis"
         "400":
           $ref: "#/components/responses/BadRequest"
         "401":
           $ref: "#/components/responses/Unauthorized"
         "404":
           $ref: "#/components/responses/NotFound"
-      summary: Pool List
-      description: List of brief info for all pools
-      operationId: pool_list
-  /pool_info: #RPC
-    post:
-      tags:
-        - Pool
-      requestBody:
-        $ref: "#/components/requestBodies/pool_ids"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_info"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Information
-      description: Current pool statuses and details for a specified list of pool ids
-      operationId: pool_info
-  /pool_stake_snapshot: #RPC
+      summary: Get Genesis info
+      description: Get the Genesis parameters used to start specific era on chain
+      operationId: genesis
+  /totals: #RPC
     get:
       tags:
-        - Pool
+        - Network
       parameters:
-        - $ref: "#/components/parameters/_pool_bech32"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_snapshot"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Stake Snapshot
-      description: Returns Mark, Set and Go stake snapshots for the selected pool, useful for leaderlog calculation
-      operationId: pool_stake_snapshot
-  /pool_delegators: #RPC
-    get:
-      tags:
-        - Pool
-      parameters:
-        - $ref: "#/components/parameters/_pool_bech32"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_delegators"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Delegators List
-      description: Return information about live delegators for a given pool.
-      operationId: pool_delegators
-  /pool_delegators_history: #RPC
-    get:
-      tags:
-        - Pool
-      parameters:
-        - $ref: "#/components/parameters/_pool_bech32"
         - $ref: "#/components/parameters/_epoch_no"
       responses:
         "200":
@@ -277,196 +210,64 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/pool_delegators_history"
+                $ref: "#/components/schemas/totals"
         "400":
           $ref: "#/components/responses/BadRequest"
         "401":
           $ref: "#/components/responses/Unauthorized"
         "404":
           $ref: "#/components/responses/NotFound"
-      summary: Pool Delegators History
-      description: Return information about active delegators (incl. history) for a given pool and epoch number (all epochs if not specified).
-      operationId: pool_delegators_history
-  /pool_blocks: #RPC
-    get:
-      tags:
-        - Pool
-      parameters:
-        - $ref: "#/components/parameters/_pool_bech32"
-        - $ref: "#/components/parameters/_epoch_no"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_blocks"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Blocks
+      summary: Get historical tokenomic stats
       description: >-
-        Return information about blocks minted by a given pool for all epochs
-        (or _epoch_no if provided)
-      operationId: pool_blocks
-  /pool_history: #RPC
+        Get the circulating utxo, treasury, rewards, supply and reserves in
+        lovelace for specified epoch, all epochs if empty
+      operationId: totals
+  /param_updates: #RPC
     get:
       tags:
-        - Pool
-      parameters:
-        - $ref: "#/components/parameters/_pool_bech32"
-        - $ref: "#/components/parameters/_epoch_no"
+        - Network
       responses:
         "200":
           description: Success!!
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/pool_history_info"
+                $ref: "#/components/schemas/param_updates"
         "400":
           $ref: "#/components/responses/BadRequest"
         "401":
           $ref: "#/components/responses/Unauthorized"
         "404":
           $ref: "#/components/responses/NotFound"
-      summary: Pool Stake, Block and Reward History
+      summary: Param Update Proposals
+      description: Get all parameter update proposals submitted to the chain starting Shelley era
+      operationId: param_updates
+  /cli_protocol_params: #RPC
+    get:
+      tags:
+        - Network
+      responses:
+        "200":
+          description: Success!!
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/cli_protocol_params"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+      summary: CLI Protocol Parameters
       description: >-
-        Return information about pool stake, block and reward history in a given epoch _epoch_no
-        (or all epochs that pool existed for, in descending order if no _epoch_no was provided)
-      operationId: pool_history
-  /pool_updates: #RPC
-    get:
-      tags:
-        - Pool
-      parameters:
-        - $ref: "#/components/parameters/_pool_bech32_optional"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_updates"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Updates (History)
-      description: Return all pool updates for all pools or only updates for specific pool if specified
-      operationId: pool_updates
-  /pool_registrations: #RPC
-    get:
-      tags:
-        - Pool
-      parameters:
-        - $ref: "#/components/parameters/_pool_epoch_no"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_registrations"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Registrations
-      description: Return all pool registrations initiated in the requested epoch
-      operationId: pool_registrations
-  /pool_retirements: #RPC
-    get:
-      tags:
-        - Pool
-      parameters:
-        - $ref: "#/components/parameters/_epoch_no"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_registrations"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Retirements
-      description: Return all pool retirements initiated in the requested epoch
-      operationId: pool_retirements
-  /pool_relays: #RPC
-    get:
-      tags:
-        - Pool
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_relays"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Relays
-      description: A list of registered relays for all pools
-      operationId: pool_relays
-  /pool_votes: #RPC
-    get:
-      tags:
-        - Governance
-      parameters:
-        - $ref: "#/components/parameters/_pool_bech32"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_votes"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Votes
-      description: List of all votes casted by a pool
-      operationId: pool_votes
-  /pool_metadata: #RPC
-    post:
-      tags:
-        - Pool
-      requestBody:
-        $ref: "#/components/requestBodies/pool_ids_optional"
-      responses:
-        "200":
-          description: Success!!
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/pool_metadata"
-        "400":
-          $ref: "#/components/responses/BadRequest"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "404":
-          $ref: "#/components/responses/NotFound"
-      summary: Pool Metadata
-      description: Metadata (on & off-chain) for all pools
-      operationId: pool_metadata
+        Get Current Protocol Parameters as published by cardano-cli. Note that
+        the output schema of this command is unfortunately fluid on cardano-node
+        and may vary between CLI versions/era. Accordingly, the returned output for
+        this endpoint is left as raw JSON (single row) and any filtering to output should
+        be done on client-side
+      operationId: cli_protocol_params
+        
 components:
   parameters:
     _after_block_height:
