@@ -1,0 +1,7 @@
+{
+  "name": "AAA Sanchonet",
+  "ticker": "AAA",
+  "description": "AAA Pool",
+  "homepage": "https://stakelovelace.io/aaa/",
+  "extended": "https://raw.githubusercontent.com/hodlonaut/a/master/aaa_itn_tick.json"
+}
