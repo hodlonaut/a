@@ -1,0 +1,176 @@
+Title: Customizable Staking Baskets Platform - Incentivizing Cardano's Decentralization
+
+URL Source: https://projectcatalyst.io/funds/10/spo-tools-and-community-projects/customizable-staking-baskets-platform-incentivizing-cardanos-decentralization
+
+Markdown Content:
+### [GENERAL] Name and surname of main applicant
+
+Peyton Winget
+
+### [GENERAL] Email address of main applicant
+
+peyton@atriumlab.io
+
+### Additional applicants
+
+Ben Darvill
+
+### [GENERAL] Please specify how many months you expect your project to last (from 2-12 months)
+
+6
+
+### [GENERAL] Please indicate if your proposal has been auto-translated into English from another language.
+
+No
+
+### [GENERAL] Does your project have any dependencies on other organizations, technical or otherwise?
+
+Yes
+
+### [GENERAL] If YES, please describe what the dependency is and why you believe it is essential for your project’s delivery. If NO, please write “No dependencies.” .
+
+The Staking basket contract is being built by MLabs and will be audited by Anastasia Labs. Mlabs has been working for several months now and has completed the contract. It needs to undergo testing and auditing before release.
+
+In the case any of our dependencies cause delays, we have built relationships with other companies that can audit and write smart contracts. For our frontend/backend integration of this platform, we depend on no third-party organizations.
+
+### [GENERAL] Will your project’s output/s be fully open source?
+
+No
+
+### [GENERAL] If NO, please describe which outputs are not going to be open source. If YES, please write “Project will be fully open source.”
+
+The Application itself is proprietary. However, all Smart Contracts will be open sourced and available for all to use.
+
+### [METADATA] Category of proposal
+
+SPOs
+
+### [IMPACT] Please describe your proposed solution.
+
+Staking Baskets is a groundbreaking new innovation and schematic for furthering decentralisation on the Cardano blockchain. Created by Âtrium Lab, and developed by MLabs, a renowned specialist in Haskell and Rust, Staking Baskets are a smart contract system that allows users to deposit their ADA and delegate to a large number of Stake pools in a user-friendly way. Users will eventually be able to create their own Staking Baskets with their own list of stakepools, following the successful funding of a separate proposal.
+
+For depositing the ADA, users will receive basket tokens that can be used to withdraw their initial ADA deposit + their rewards. These basket tokens are liquid and can be sent to other wallets. They can also be swapped on a DEX, given that there’s a liquidity pool. Diffusion our first basket has been built and is now in the later stages of testing and integrating within our front end.
+
+This proposal will see the development of a frontend that enables creation of customisable Staking Baskets, making them accessible to the wider community. Users will be able to create their own Staking Basket with their own list of stakepools and their own reward incentive.
+
+Interacting with the Staking Basket contract directly is something that requires a deep level of technical knowledge. We are building a simple interface that will allow a much larger cohort of users to create and manage Baskets. Users will be able to choose which pools they would like to initially include, they can add or remove pools, rebalance the delegation to each pool, adjust Basket fees, and include their own token incentives as well as set their own fee.
+
+### [IMPACT] How does your proposed solution address the challenge and what benefits will this bring to the Cardano ecosystem?
+
+With Staking Basket SPO tooling, operators can create their own Staking Basket with their own list of stakepools for stakers to delegate their ADA too. Staking Baskets are a great tool for existing Stake pools to collaborate with other pools to advertise their collectives, teams, trusted partners, organizations and friend groups.
+
+### [IMPACT] How do you intend to measure the success of your project?
+
+A functioning platform that allows users to create their own Staking Baskets with their own list of Stakepools, collect fees, change stakepool delegation, and reward with their own Cardano Native Token.
+
+### [IMPACT] Please describe your plans to share the outputs and results of your project?
+
+The Custom Baskets Platform will be released on Âtrium following the successful release of the initial Staking Baskets contract/interface on Cardano’s mainnet.
+
+Basket creators will be able to choose which pools they would like their Basket to be composed of, they can add or remove pools, rebalance the delegation to each pool, adjust Basket fees, and include their own token incentives as well as set their own fee. All Basket operations can be completed through a simple front-end interface, with no development experience required.
+
+### [CAPABILITY/ FEASIBILITY] What is your capability to deliver your project with high levels of trust and accountability?
+
+Our team has significant experience in all the areas needed to complete Staking Baskets. MLabs, are one of the most well respected development firms operating in the Cardano ecosystem, and have developed smart contracts for IOG, Sundae Labs, Singularity Net, Liquid Finance, and many more companies/projects.
+
+Anastasia Labs is the team responsible for auditing the contracts. Their combined knowledge and experience have seen them work with companies such as Wingriders, the Cardano Foundation, and Emurgo.
+
+Our core team consists of multiple decades of front end, back end and full-stack experience, security experts and award winning designers with experience working for some of the largest most recognised brands in the world. Our founder Peyton, is the operator behind Bloom, one of the largest stake pools in the ecosystem responsible for minting the 8th block on the Cardano blockchain. All team members are Cardano community natives, with a love for the community and a united vision in building products that serve the ecosystem.
+
+### [CAPABILITY/ FEASIBILITY] What are the main goals for the project and how will you validate if your approach is feasible?
+
+Our main goal for this project is to create a new Staking Ecosystem on Cardano. An ecosystem that allows users to be rewarded more for supporting decentralisation. This ecosystem will also allow any entity to create their own Staking Basket with their own reward incentive.
+
+We’ve validated that this approach is feasible by writing the smart contracts and testing the contracts on Cardano’s preview network. We’ve also shared this idea with the community at a Cardano event we hosted and live streamed in Austin, Texas. Since the livestream we’ve had hundreds of supporters championing the idea of Staking Baskets.
+
+Currently we have an un-styled front-end interface where users can create their own Baskets on Cardano’s preview network. We’ve validated the core technology works. All we need to do is bugtest, expand the feature list, and integrate a user-friendly front-end into our main application.
+
+### [CAPABILITY/ FEASIBILITY] Please provide a detailed breakdown of your project’s milestones and each of the main tasks or activities to reach the milestone plus the expected timeline for the delivery.
+
+Production will begin upon the completion of the Stake baskets platform proposal, due to be completed in Winter ‘23.
+
+|
+
+Milestone 0 (Completed):
+
+*   Staking Basket on-chain MVP
+*   Staking Basket Internal Preview Test
+*   Customizable Staking Basket Rewards
+
+Milestone 1 (month 1):
+
+*   Staking Basket Public Preview Test
+*   Customizable Staking Basket platform front-end design
+
+Milestone 2 (month 3):
+
+*   Staking Basket Audit
+*   Customizable Staking Basket platform front-end interface
+*   Customizable Staking Basket platform back-end integration
+
+Milestone 3 (month 5):
+
+*   Staking Basket Mainnet Release
+*   Customizable Staking Basket platform testnet release
+
+Milestone 4 (month 6):
+
+*   Customizable Staking Basket platform mainnet release
+
+### [CAPABILITY/ FEASIBILITY] Please describe the deliverables, outputs and intended outcomes of each milestone.
+
+Staking Basket on-chain MVP - Completed
+
+*   The deliverables from this completed milestone are working smart-contracts on Cardano’s preview network and a front-end that allows deposits, withdraws, and Basket owners to remove or add new stakepools. These core contracts need to be completed before integrating customizable Baskets.
+
+Staking Basket Internal Preview Test - Completed
+
+*   The Staking Basket internal preview test allowed us to successfully validate the user experience for depositing ADA into baskets, withdrawing rewards, adding more stakepool UTXOs and adjusting fees.
+
+Customizable Staking Basket Rewards - Completed
+
+*   This milestone allows basket creators to pay out Cardano Native Token rewards to users that deposit ADA into the basket.
+
+Staking Basket Public Preview Test - In-progress
+
+*   We’ve gathered a solid group of users with different technical backgrounds to test all Staking Basket features on the preview network. On this milestone users are interacting with Staking Baskets through the Atrium front-end. It's important we test the user experience so that Basket creators have a seamless integration with their stakepools.
+
+Staking Basket Audit- In-progress
+
+*   The Staking Basket smart-contracts are undergoing a formal audit to verify the security for users. This milestone on completion will verify that the code was written without vulnerabilities. Basket creators need to ensure their users funds are secure.
+
+Staking Basket Mainnet Release - In-progress
+
+*   In our final milestone we will release our Staking Baskets to Cardano’s mainnet. Users will be able to deposit ADA into Staking Baskets, and earn rewards.
+
+Staking Basket User Basket Creation Beta
+
+*   We’ll launch our stylized user Basket creation front-end on Cardano’s preview network to allow users to create their own Basket with their own list of stakepools. Users will test depositing, withdrawing, collecting rewards, rebalancing, and adding new stakepools.
+
+Staking Basket User Basket Creation Mainnet
+
+*   After our preview network test, we’ll launch user created Baskets on Cardano’s mainnet.
+
+### [RESOURCES & VALUE FOR MONEY] Please provide a detailed budget breakdown of the proposed work and resources.
+
+We’ve split the Staking Basket ecosystem into multiple proposals to better meet the requirements of each challenge. For this proposal focused on the Customizable platform we anticipate:
+
+Customizable Basket Smart Contract Work - $20k
+
+Customizable Platform UI/UX Design: $10k
+
+Customizable Platform Front-end: $20k
+
+Customizable Platform Back-end $35k
+
+### [RESOURCES & VALUE FOR MONEY] How does the cost of the project represent value for money for the Cardano ecosystem?
+
+Project Catalyst often takes risks with projects that haven’t started development, or haven’t shipped products to Cardano in their past.
+
+An un-stylized Customizable Basket MVP has been completed and the full release is close to being shipped to testnet by a team that has shipped multiple real products to Cardano.
+
+Staking Baskets are a great tool for existing Stake pools to collaborate with other pools to advertise their collectives, teams, trusted partners, organizations and friend groups We hope this will lead to a Staking Ecosystem that brings millions of ADA in delegation to smaller pools to support Cardano’s decentralization.
+
+### [IMPORTANT NOTE] The Applicant agreed to Fund10 rules and also that data in the Submission Form and other data provided by the project team during the course of the project will be publicly available.
+
+I Accept
