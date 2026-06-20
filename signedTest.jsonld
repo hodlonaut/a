@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Test title",
+    "abstract": "Test title abstract.",
+    "motivation": "Test motivation.",
+    "rationale": "Test rationale.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Test reference label",
+        "uri": "https://github.com/hodlonaut/a/blob/master/small-zero-variable-170-pools-30Apr2025.png"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Bob Builder",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "f135e08950074c25e0562ce91d1df2cfd1a66bd3701b8c36b1f49a672af6eee1",
+        "signature": "2fc3143fd48d43f9215dac084330addb5f4b78475fee066de4fb97214270e774bb0ad3a152b5a9d52c853d7a8e620f6333dea993e9502fddf0138cf79b17be07"
+      }
+    }
+  ]
+}
