@@ -1,0 +1,7 @@
+{
+  "name": "AAA Preview (Dingo)",
+  "ticker": "AAA",
+  "description": "AAA Pool",
+  "homepage": "",
+  "extended": "https://raw.githubusercontent.com/hodlonaut/a/master/aaa_itn_tick.json"
+}
