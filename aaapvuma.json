@@ -1,0 +1,7 @@
+{
+  "name": "AAA Preview (Amaru)",
+  "ticker": "UMARA",
+  "description": "AAA Pool",
+  "homepage": "",
+  "extended": "https://raw.githubusercontent.com/hodlonaut/a/master/aaa_itn_tick.json"
+}
